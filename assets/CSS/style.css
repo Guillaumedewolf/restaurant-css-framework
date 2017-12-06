@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/fond.jpg);
+  background-position: 0 -200px;
+  background-attachment: fixed;
+  background-size: 110%;
+  background-repeat: no-repeat;
+  width: 100%; }
+
+header {
+  background-color: #153D1A;
+  height: 40px;
+  position: fixed;
+  width: 100%;
+  z-index: 200000000; }
+
+#icone {
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 40px; }
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+  nav ul li {
+    text-align: center;
+    border: white 1px solid; }
+    nav ul li a {
+      color: white; }
+
+/*------------------------------*/
+.banderole {
+  height: 50px;
+  width: 100%; }
+
+/*------------------------------*/
+.jumbotron {
+  background-color: transparent;
+  height: 500px; }
+
+.jumbotron > h1 {
+  display: none; }
+
+.jumbotron p:nth-child(2) {
+  margin-top: 250px; }
+.jumbotron p {
+  margin-left: 25%;
+  color: white; }
+
+.panel {
+  height: 300px; }
+
+.gris {
+  background-image: url(../images/pain-gris.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black; }
+
+.blanc {
+  background-image: url(../images/pain-blanc.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black; }
+
+footer {
+  background-color: black; }
+
+/*# sourceMappingURL=style.css.map */
